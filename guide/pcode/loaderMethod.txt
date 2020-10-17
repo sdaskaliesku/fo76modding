@@ -1,0 +1,60 @@
+trait method Qname(PrivateNamespace(null,"2"),"myCustomModLoader")
+dispid 0
+method
+name null
+flag NEED_ACTIVATION
+returns Qname(PackageNamespace(""),"void")
+
+body
+maxstack 3
+localcount 3
+initscopedepth 13
+maxscopedepth 18
+try from ofs0006 to ofs002e target ofs0032 type Qname(PackageNamespace(""),"Error") name Qname(PackageNamespace(""),"e")
+
+code
+getlocal_0
+pushscope
+newactivation
+dup
+setlocal_1
+pushscope
+ofs0006:getlocal_0
+findpropstrict Multiname("Loader",[PrivateNamespace(null,"2"),PackageNamespace(""),PackageInternalNs(""),PrivateNamespace(null,"125"),Namespace("http://adobe.com/AS3/2006/builtin"),PackageNamespace("Shared.AS3"),PackageNamespace("Shared.AS3.Data"),PackageNamespace("Shared.AS3.Events"),PackageNamespace("Shared.AS3.Styles"),PackageNamespace("flash.display"),PackageNamespace("flash.events"),PackageNamespace("flash.ui"),PackageNamespace("scaleform.gfx"),ProtectedNamespace("SecureTrade"),StaticProtectedNs("SecureTrade"),StaticProtectedNs("Shared.AS3:IMenu"),StaticProtectedNs("Shared.AS3:BSDisplayObject"),StaticProtectedNs("flash.display:MovieClip"),StaticProtectedNs("flash.display:Sprite"),StaticProtectedNs("flash.display:DisplayObjectContainer"),StaticProtectedNs("flash.display:InteractiveObject"),StaticProtectedNs("flash.display:DisplayObject"),StaticProtectedNs("flash.events:EventDispatcher")])
+constructprop Multiname("Loader",[PrivateNamespace(null,"2"),PackageNamespace(""),PackageInternalNs(""),PrivateNamespace(null,"126"),Namespace("http://adobe.com/AS3/2006/builtin"),PackageNamespace("Shared.AS3"),PackageNamespace("Shared.AS3.Data"),PackageNamespace("Shared.AS3.Events"),PackageNamespace("Shared.AS3.Styles"),PackageNamespace("flash.display"),PackageNamespace("flash.events"),PackageNamespace("flash.ui"),PackageNamespace("scaleform.gfx"),ProtectedNamespace("SecureTrade"),StaticProtectedNs("SecureTrade"),StaticProtectedNs("Shared.AS3:IMenu"),StaticProtectedNs("Shared.AS3:BSDisplayObject"),StaticProtectedNs("flash.display:MovieClip"),StaticProtectedNs("flash.display:Sprite"),StaticProtectedNs("flash.display:DisplayObjectContainer"),StaticProtectedNs("flash.display:InteractiveObject"),StaticProtectedNs("flash.display:DisplayObject"),StaticProtectedNs("flash.events:EventDispatcher")]) 0
+setproperty Multiname("modLoader",[PrivateNamespace(null,"2"),PackageNamespace(""),PackageInternalNs(""),PrivateNamespace(null,"127"),Namespace("http://adobe.com/AS3/2006/builtin"),PackageNamespace("Shared.AS3"),PackageNamespace("Shared.AS3.Data"),PackageNamespace("Shared.AS3.Events"),PackageNamespace("Shared.AS3.Styles"),PackageNamespace("flash.display"),PackageNamespace("flash.events"),PackageNamespace("flash.ui"),PackageNamespace("scaleform.gfx"),ProtectedNamespace("SecureTrade"),StaticProtectedNs("SecureTrade"),StaticProtectedNs("Shared.AS3:IMenu"),StaticProtectedNs("Shared.AS3:BSDisplayObject"),StaticProtectedNs("flash.display:MovieClip"),StaticProtectedNs("flash.display:Sprite"),StaticProtectedNs("flash.display:DisplayObjectContainer"),StaticProtectedNs("flash.display:InteractiveObject"),StaticProtectedNs("flash.display:DisplayObject"),StaticProtectedNs("flash.events:EventDispatcher")])
+getlocal_0
+getproperty Multiname("modLoader",[PrivateNamespace(null,"2"),PackageNamespace(""),PackageInternalNs(""),PrivateNamespace(null,"134"),Namespace("http://adobe.com/AS3/2006/builtin"),PackageNamespace("Shared.AS3"),PackageNamespace("Shared.AS3.Data"),PackageNamespace("Shared.AS3.Events"),PackageNamespace("Shared.AS3.Styles"),PackageNamespace("flash.display"),PackageNamespace("flash.events"),PackageNamespace("flash.ui"),PackageNamespace("scaleform.gfx"),ProtectedNamespace("SecureTrade"),StaticProtectedNs("SecureTrade"),StaticProtectedNs("Shared.AS3:IMenu"),StaticProtectedNs("Shared.AS3:BSDisplayObject"),StaticProtectedNs("flash.display:MovieClip"),StaticProtectedNs("flash.display:Sprite"),StaticProtectedNs("flash.display:DisplayObjectContainer"),StaticProtectedNs("flash.display:InteractiveObject"),StaticProtectedNs("flash.display:DisplayObject"),StaticProtectedNs("flash.events:EventDispatcher")])
+findpropstrict Multiname("URLRequest",[PrivateNamespace(null,"2"),PackageNamespace(""),PackageInternalNs(""),PrivateNamespace(null,"135"),Namespace("http://adobe.com/AS3/2006/builtin"),PackageNamespace("Shared.AS3"),PackageNamespace("Shared.AS3.Data"),PackageNamespace("Shared.AS3.Events"),PackageNamespace("Shared.AS3.Styles"),PackageNamespace("flash.display"),PackageNamespace("flash.events"),PackageNamespace("flash.ui"),PackageNamespace("scaleform.gfx"),ProtectedNamespace("SecureTrade"),StaticProtectedNs("SecureTrade"),StaticProtectedNs("Shared.AS3:IMenu"),StaticProtectedNs("Shared.AS3:BSDisplayObject"),StaticProtectedNs("flash.display:MovieClip"),StaticProtectedNs("flash.display:Sprite"),StaticProtectedNs("flash.display:DisplayObjectContainer"),StaticProtectedNs("flash.display:InteractiveObject"),StaticProtectedNs("flash.display:DisplayObject"),StaticProtectedNs("flash.events:EventDispatcher"),PackageNamespace("flash.net")])
+pushstring "MyMod.swf"
+constructprop Multiname("URLRequest",[PrivateNamespace(null,"2"),PackageNamespace(""),PackageInternalNs(""),PrivateNamespace(null,"136"),Namespace("http://adobe.com/AS3/2006/builtin"),PackageNamespace("Shared.AS3"),PackageNamespace("Shared.AS3.Data"),PackageNamespace("Shared.AS3.Events"),PackageNamespace("Shared.AS3.Styles"),PackageNamespace("flash.display"),PackageNamespace("flash.events"),PackageNamespace("flash.ui"),PackageNamespace("scaleform.gfx"),ProtectedNamespace("SecureTrade"),StaticProtectedNs("SecureTrade"),StaticProtectedNs("Shared.AS3:IMenu"),StaticProtectedNs("Shared.AS3:BSDisplayObject"),StaticProtectedNs("flash.display:MovieClip"),StaticProtectedNs("flash.display:Sprite"),StaticProtectedNs("flash.display:DisplayObjectContainer"),StaticProtectedNs("flash.display:InteractiveObject"),StaticProtectedNs("flash.display:DisplayObject"),StaticProtectedNs("flash.events:EventDispatcher"),PackageNamespace("flash.net")]) 1
+callpropvoid Multiname("load",[PrivateNamespace(null,"2"),PackageNamespace(""),PackageInternalNs(""),PrivateNamespace(null,"137"),Namespace("http://adobe.com/AS3/2006/builtin"),PackageNamespace("Shared.AS3"),PackageNamespace("Shared.AS3.Data"),PackageNamespace("Shared.AS3.Events"),PackageNamespace("Shared.AS3.Styles"),PackageNamespace("flash.display"),PackageNamespace("flash.events"),PackageNamespace("flash.ui"),PackageNamespace("scaleform.gfx"),ProtectedNamespace("SecureTrade"),StaticProtectedNs("SecureTrade"),StaticProtectedNs("Shared.AS3:IMenu"),StaticProtectedNs("Shared.AS3:BSDisplayObject"),StaticProtectedNs("flash.display:MovieClip"),StaticProtectedNs("flash.display:Sprite"),StaticProtectedNs("flash.display:DisplayObjectContainer"),StaticProtectedNs("flash.display:InteractiveObject"),StaticProtectedNs("flash.display:DisplayObject"),StaticProtectedNs("flash.events:EventDispatcher")]) 1
+findpropstrict Multiname("addChild",[PrivateNamespace(null,"2"),PackageNamespace(""),PackageInternalNs(""),PrivateNamespace(null,"138"),Namespace("http://adobe.com/AS3/2006/builtin"),PackageNamespace("Shared.AS3"),PackageNamespace("Shared.AS3.Data"),PackageNamespace("Shared.AS3.Events"),PackageNamespace("Shared.AS3.Styles"),PackageNamespace("flash.display"),PackageNamespace("flash.events"),PackageNamespace("flash.ui"),PackageNamespace("scaleform.gfx"),ProtectedNamespace("SecureTrade"),StaticProtectedNs("SecureTrade"),StaticProtectedNs("Shared.AS3:IMenu"),StaticProtectedNs("Shared.AS3:BSDisplayObject"),StaticProtectedNs("flash.display:MovieClip"),StaticProtectedNs("flash.display:Sprite"),StaticProtectedNs("flash.display:DisplayObjectContainer"),StaticProtectedNs("flash.display:InteractiveObject"),StaticProtectedNs("flash.display:DisplayObject"),StaticProtectedNs("flash.events:EventDispatcher")])
+getlocal_0
+getproperty Multiname("modLoader",[PrivateNamespace(null,"2"),PackageNamespace(""),PackageInternalNs(""),PrivateNamespace(null,"139"),Namespace("http://adobe.com/AS3/2006/builtin"),PackageNamespace("Shared.AS3"),PackageNamespace("Shared.AS3.Data"),PackageNamespace("Shared.AS3.Events"),PackageNamespace("Shared.AS3.Styles"),PackageNamespace("flash.display"),PackageNamespace("flash.events"),PackageNamespace("flash.ui"),PackageNamespace("scaleform.gfx"),ProtectedNamespace("SecureTrade"),StaticProtectedNs("SecureTrade"),StaticProtectedNs("Shared.AS3:IMenu"),StaticProtectedNs("Shared.AS3:BSDisplayObject"),StaticProtectedNs("flash.display:MovieClip"),StaticProtectedNs("flash.display:Sprite"),StaticProtectedNs("flash.display:DisplayObjectContainer"),StaticProtectedNs("flash.display:InteractiveObject"),StaticProtectedNs("flash.display:DisplayObject"),StaticProtectedNs("flash.events:EventDispatcher")])
+callpropvoid Multiname("addChild",[PrivateNamespace(null,"2"),PackageNamespace(""),PackageInternalNs(""),PrivateNamespace(null,"140"),Namespace("http://adobe.com/AS3/2006/builtin"),PackageNamespace("Shared.AS3"),PackageNamespace("Shared.AS3.Data"),PackageNamespace("Shared.AS3.Events"),PackageNamespace("Shared.AS3.Styles"),PackageNamespace("flash.display"),PackageNamespace("flash.events"),PackageNamespace("flash.ui"),PackageNamespace("scaleform.gfx"),ProtectedNamespace("SecureTrade"),StaticProtectedNs("SecureTrade"),StaticProtectedNs("Shared.AS3:IMenu"),StaticProtectedNs("Shared.AS3:BSDisplayObject"),StaticProtectedNs("flash.display:MovieClip"),StaticProtectedNs("flash.display:Sprite"),StaticProtectedNs("flash.display:DisplayObjectContainer"),StaticProtectedNs("flash.display:InteractiveObject"),StaticProtectedNs("flash.display:DisplayObject"),StaticProtectedNs("flash.events:EventDispatcher")]) 1
+ofs002e:jump ofs0051
+ofs0032:getlocal_0
+pushscope
+getlocal_1
+pushscope
+newcatch 0
+dup
+setlocal_2
+dup
+pushscope
+swap
+setslot 1
+getlex Multiname("GlobalFunc",[PrivateNamespace(null,"2"),PackageNamespace(""),PackageInternalNs(""),PrivateNamespace(null,"141"),Namespace("http://adobe.com/AS3/2006/builtin"),PackageNamespace("Shared.AS3"),PackageNamespace("Shared.AS3.Data"),PackageNamespace("Shared.AS3.Events"),PackageNamespace("Shared.AS3.Styles"),PackageNamespace("flash.display"),PackageNamespace("flash.events"),PackageNamespace("flash.ui"),PackageNamespace("scaleform.gfx"),ProtectedNamespace("SecureTrade"),StaticProtectedNs("SecureTrade"),StaticProtectedNs("Shared.AS3:IMenu"),StaticProtectedNs("Shared.AS3:BSDisplayObject"),StaticProtectedNs("flash.display:MovieClip"),StaticProtectedNs("flash.display:Sprite"),StaticProtectedNs("flash.display:DisplayObjectContainer"),StaticProtectedNs("flash.display:InteractiveObject"),StaticProtectedNs("flash.display:DisplayObject"),StaticProtectedNs("flash.events:EventDispatcher"),PackageNamespace("Shared")])
+pushstring "Error loading mod: "
+getscopeobject 2
+getslot 1
+add
+callpropvoid Multiname("ShowHUDMessage",[PrivateNamespace(null,"2"),PackageNamespace(""),PackageInternalNs(""),PrivateNamespace(null,"142"),Namespace("http://adobe.com/AS3/2006/builtin"),PackageNamespace("Shared.AS3"),PackageNamespace("Shared.AS3.Data"),PackageNamespace("Shared.AS3.Events"),PackageNamespace("Shared.AS3.Styles"),PackageNamespace("flash.display"),PackageNamespace("flash.events"),PackageNamespace("flash.ui"),PackageNamespace("scaleform.gfx"),ProtectedNamespace("SecureTrade"),StaticProtectedNs("SecureTrade"),StaticProtectedNs("Shared.AS3:IMenu"),StaticProtectedNs("Shared.AS3:BSDisplayObject"),StaticProtectedNs("flash.display:MovieClip"),StaticProtectedNs("flash.display:Sprite"),StaticProtectedNs("flash.display:DisplayObjectContainer"),StaticProtectedNs("flash.display:InteractiveObject"),StaticProtectedNs("flash.display:DisplayObject"),StaticProtectedNs("flash.events:EventDispatcher")]) 1
+popscope
+kill 2
+ofs0051:returnvoid ; trait
+end ; code
+end ; body
+end ; method
+end ; trait
